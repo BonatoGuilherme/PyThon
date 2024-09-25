@@ -20,3 +20,9 @@ print(len(mensagem))
 
 x = 10
 print(type(x))
+
+y = 3.14
+print(type(y))
+
+z = "as"
+print(type(z))
