@@ -26,3 +26,5 @@ print(type(y))
 
 z = "as"
 print(type(z))
+
+#teste
