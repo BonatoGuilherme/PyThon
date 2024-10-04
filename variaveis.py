@@ -28,3 +28,19 @@ z = "as"
 print(type(z))
 
 #teste
+#string com aspas dupla
+mensagem1 = "ola, mundo!"
+
+#string com aspas simples
+mensagem2 = 'ola, mundo!'
+
+#string com palavras entre aspas simples
+mensagem3 = "ola, 'mundo'!"
+
+#string com palavras entre aspas duplas
+mensagem4 = 'ola, "mundo"!'
+
+print(mensagem1)
+print(mensagem2)
+print(mensagem3)
+print(mensagem4)
