@@ -3,8 +3,6 @@
 #imprime a string 'Olá, Mundo!'
 print("Ola, Mundo!") #Comendo em python
 
-
-
 #variaveis
 idade = 25
 nome = "ana"
