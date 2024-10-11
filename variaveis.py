@@ -13,7 +13,7 @@ estudante = True
 # imprime o nome e a idade
 print(f"Meu nome é {nome}, e tenho {idade} anos.")
 
-mensagem = "Cu de bebado não tem dono"
+mensagem = "Show"
 print(len(mensagem))
 
 x = 10
