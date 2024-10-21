@@ -1,8 +1,31 @@
-def posi_ou_nega(num):
-    if nro > 0:
-        return "P, ou seja, positivo"
-    else:
-        return "N, ou seja, nagativo"
+def m(mes):
+    if mes == 1:
+        return("Janeiro")
+    elif mes == 2:
+        return("Fevereiro")
+    elif mes == 3:
+        return("Março")
+    elif mes == 4:
+        return("Abril")
+    elif mes == 5:
+        return("Maio")
+    elif mes == 6:
+        return("Junho")
+    elif mes == 7:
+        return("Julho")
+    elif mes == 8:
+        return("Agosto")
+    elif mes == 9:
+        return("Setembro")
+    elif mes == 10:
+        return("Outubro")
+    elif mes == 11:
+        return("Novembro")
+    elif mes == 12:
+        return("Dezembro")
+    
+dia = int(input("Digite seu dia de aniversario: "))
+mes = int(input("Digite seu mes de aniversario: "))
+ano = int(input("Digite seu ano de nacimento: "))
 
-nro = int(input("Digite um numero: "))
-print(f"O {nro} é {posi_ou_nega(nro)}")
+print(f"Seu aniversario é {dia} de {m(mes)} de {ano}")

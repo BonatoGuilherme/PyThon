@@ -42,6 +42,8 @@ print(f"O {nro} é {posi_ou_nega(nro)}")
 
 #Sexta
 def calcular_media(nro):
-    media = 
 
-while nro 
+nro = int(input("Digite suas notas"))
+while notas >= 0:
+    notas = int(input("Digite quantas notas tem para fazer a media final: "))
+calcular_media(notas)
