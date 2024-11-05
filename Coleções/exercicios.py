@@ -1,3 +1,4 @@
+#Primeira
 numeros = []
 
 for i in range(10):
@@ -6,3 +7,50 @@ for i in range(10):
 
 numeros.reverse()
 print(numeros)
+
+#Segunda
+nro = []
+for i in range(5):
+    num = int(input("Digite um numero: "))
+    nro.append(num)
+soma = 0
+multi=1
+for i in range(5):
+    soma = nro[i] + soma
+    multi = nro[i] * multi
+print(soma)
+print(multi)
+print(nro)
+
+#Terceira
+def contatenar_tuplas(tupla1, tupla2):
+    tupla3 = tupla1 + tupla2
+    return tupla3
+tupla1 = 3,4,5,6
+tupla2 = 'oi',
+tupla_contatenada = contatenar_tuplas(tupla1, tupla2)
+print(tupla_contatenada)
+
+#Quarta
+def contar_elementos(tupla1, elemento):
+    vezes = tupla1.count(elemento)
+    return vezes
+tupla1 = 1, 3, 5, 6, 5, 7, 9
+elemento = 5
+resul = contar_elementos(tupla1, elemento)
+print(resul)
+
+#Quinta
+dupli = [1,1,2,3,4,4,5,6,6,1]
+conjunt = set(dupli)
+print(conjunt)
+
+#Sexta
+lista1 = ['a', 'b', 'a','c', 'b', 'd']
+conjunt = set(lista1)
+print(len(conjunt))
+
+#Setima
+conjunto = {1, 2, 3, 4, 5}
+
+valor = conjunto.index(3)
