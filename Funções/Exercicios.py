@@ -40,3 +40,8 @@ def posi_ou_nega(num):
 nro = int(input("Digite um numero: "))
 print(f"O {nro} é {posi_ou_nega(nro)}")
 
+#Sexta
+def calcular_media(nro):
+    media = 
+
+while nro 
