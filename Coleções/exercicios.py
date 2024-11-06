@@ -51,6 +51,20 @@ conjunt = set(lista1)
 print(len(conjunt))
 
 #Setima
-conjunto = {1, 2, 3, 4, 5}
+def num_x(conjunto):
+    x = conjunto.count(3)
+    return x
+conjunto = [1, 2, 3, 4, 5]
+x = num_x(conjunto)
+if x == True:
+    print("Esta na lista")
+else:
+    print("Não esta na lista.")
 
-valor = conjunto.index(3)
+#Oitava
+def lista_palavra(lista):
+    lista1 = lista.count('oi') and lista.count('ola')
+    return dict(lista1)
+lista = ['oi', 'ola', 'oi', 'ola', 'oi', 'ola']
+dicionario = lista_palavra(lista)
+print(dicionario)
