@@ -1,3 +1,4 @@
+'''
 class Carro:
     def __init__(self, marca, modelo):
         self.__marca = marca
@@ -95,4 +96,20 @@ dinheiro.depositar(50)
 dinheiro.exibir_info()
 dinheiro.sacar(100)
 dinheiro.exibir_info()
+'''
+class Funcionario():
+    def __init__(self, nome, salario, departamento):
+        self.__nome = nome
+        self.__salario = salario
+    def exibir_info(self):
+        print(f"Nome: {self.__nome}, Sálario: {self.__salario}")
+class Gerente(Funcionario):
+    def __init__(self, nome, salario, departamento):
+        super().__init__(nome, salario)
+        self.__departamento = departamento
+    def info(self):
+        super().info()
+        print(f"Departamento: {self.__departamento}")
+Gerente = ("Gustavo", 1.700, 'got')
+Gerente.info()
 
